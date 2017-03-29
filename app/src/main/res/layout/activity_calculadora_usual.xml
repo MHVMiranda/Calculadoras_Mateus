@@ -129,6 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_row="3"
+                    android:background="@android:color/holo_orange_dark"
                     android:onClick="onClickIgual"
                     android:text="=" />
 
@@ -182,6 +183,7 @@
                 android:id="@+id/btVoltar"
                 android:layout_width="104dp"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
                 android:onClick="onClickVoltar"
                 android:text="voltar" />
 
