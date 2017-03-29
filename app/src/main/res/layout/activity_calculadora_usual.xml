@@ -155,6 +155,7 @@
                     android:layout_column="1"
                     android:layout_columnSpan="2"
                     android:layout_row="3"
+                    android:background="@android:color/holo_orange_dark"
                     android:onClick="onClickIgual"
                     android:text="=" />
 
