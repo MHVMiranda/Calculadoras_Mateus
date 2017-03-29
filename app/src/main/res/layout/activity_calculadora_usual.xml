@@ -172,6 +172,7 @@
                 android:id="@+id/btVoltar"
                 android:layout_width="104dp"
                 android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
                 android:onClick="onClickVoltar"
                 android:text="voltar" />
         </LinearLayout>
