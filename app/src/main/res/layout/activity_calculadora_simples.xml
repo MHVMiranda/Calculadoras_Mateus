@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mateu.calculadoras_mateus.CalculadoraSimplesActivity">
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="485dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Insira o primeiro número"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Insira o segundo número"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="-27dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <Button
+            android:id="@+id/btSoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSoma"
+            android:text="+"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <Button
+            android:id="@+id/btSubtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickSubtracao"
+            android:text="-"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <Button
+            android:id="@+id/btMultiplicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickMultiplicacao"
+            android:text="*"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <Button
+            android:id="@+id/btDivisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickDivisao"
+            android:text="/"
+            tools:layout_editor_absoluteX="280dp"
+            tools:layout_editor_absoluteY="174dp" />
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="..."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="247dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClickVoltar"
+            android:text="voltar"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="284dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
