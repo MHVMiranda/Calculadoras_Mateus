@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:weightSum="1"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
@@ -29,7 +30,8 @@
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="212dp">
+                android:layout_height="212dp"
+                android:layout_weight="0.21">
 
                 <Button
                     android:id="@+id/bt4"
@@ -39,15 +41,6 @@
                     android:layout_row="1"
                     android:onClick="onClick4"
                     android:text="4" />
-
-                <Button
-                    android:id="@+id/bt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="0"
-                    android:layout_row="0"
-                    android:onClick="onClick1"
-                    android:text="1" />
 
                 <Button
                     android:id="@+id/bt2"
@@ -95,33 +88,6 @@
                     android:text="-" />
 
                 <Button
-                    android:id="@+id/bt8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="0"
-                    android:layout_row="2"
-                    android:onClick="onClick8"
-                    android:text="8" />
-
-                <Button
-                    android:id="@+id/bt9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="1"
-                    android:layout_row="2"
-                    android:onClick="onClick9"
-                    android:text="9" />
-
-                <Button
-                    android:id="@+id/bt0"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_column="2"
-                    android:layout_row="2"
-                    android:onClick="onClick0"
-                    android:text="0" />
-
-                <Button
                     android:id="@+id/btMais"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -149,17 +115,6 @@
                     android:text="CE" />
 
                 <Button
-                    android:id="@+id/btIgual"
-                    android:layout_width="179dp"
-                    android:layout_height="wrap_content"
-                    android:layout_column="1"
-                    android:layout_columnSpan="2"
-                    android:layout_row="3"
-                    android:background="@android:color/holo_orange_dark"
-                    android:onClick="onClickIgual"
-                    android:text="=" />
-
-                <Button
                     android:id="@+id/btDivisao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -167,6 +122,61 @@
                     android:layout_row="3"
                     android:onClick="onClickDivi"
                     android:text="/" />
+
+                <Button
+                    android:id="@+id/btIgual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="3"
+                    android:background="@android:color/holo_orange_dark"
+                    android:onClick="onClickIgual"
+                    android:text="=" />
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:onClick="onClick1"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/bt0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="3"
+                    android:onClick="onClick0"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/bt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:onClick="onClick7"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/bt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:onClick="onClick8"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/bt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_row="2"
+                    android:onClick="onClick9"
+                    android:text="9" />
             </GridLayout>
 
             <Button
@@ -176,6 +186,7 @@
                 android:background="@android:color/holo_orange_dark"
                 android:onClick="onClickVoltar"
                 android:text="voltar" />
+
         </LinearLayout>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
